@@ -13,8 +13,10 @@ HTML, CSS, Bootstrap.
 
 ### SCREENSHOT: 
 
-### Contact
+### WEBSITE:
+* View my online portfolio [here](shaydaniel.com "Link to online portfolio")
 
+### Contact
 Shay Daniel
 * shay@shaydaniel.com
 * [LinkedIn](linkedin.com/in/shay-daniel-10b8b71ab "Link to LinkedIn page")
