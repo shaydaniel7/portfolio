@@ -25,6 +25,15 @@ h5 {
     font-family: 'Oswald', sans-serif;   
 }
 
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    text-align: right;
+}
+
+img {
+    max-height: 600px;
+}
 
 /* font rules */
 
@@ -43,6 +52,38 @@ h5 {
 .container {
     text-align: center; 
 }
+
+.form-control {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    padding: 30px;
+    border: rgb(106, 106, 106) solid 2px;
+   }
+
+#myBtn {
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    display: block;
+    margin-top: 10px;
+    
+  }
+
+  .btn-secondary {
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    display: block;
+    margin-top: 10px;
+    
+  }
+
 
 /* modal info*/
 .modal {

@@ -7,23 +7,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!--cdn css link-->
-
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 
     <link rel="stylesheet" type="text/css" href="stylec.css">
 
     <!--favicon-->
-
     <link rel="shortcut icon" type="image/x-icon" href="favicon.png">
 
     <!--google fonts link-->
-
-
-    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Oswald&display=swap"
+        rel="stylesheet">
 
     <!--js links to make navbar hamburger work-->
-
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
@@ -40,7 +37,6 @@
 </head>
 
 <!--navbar-->
-
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <a class="navbar-brand" href="index.html">Shay Daniel</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
@@ -52,62 +48,47 @@
             <a class="nav-link" href="portfolio.html">portfolio</a>
             <a class="nav-link" href="about.html">about</a>
             <a class="nav-link" href="contact.html">contact</a>
-            <a class="nav-link" href="https://drive.google.com/file/d/1E6bcFqbkiFfaWr6ecx1Pb2qSXpE9HP1H/view?usp=sharing">resume</a>
-
+            <a class="nav-link"
+                href="https://drive.google.com/file/d/1E6bcFqbkiFfaWr6ecx1Pb2qSXpE9HP1H/view?usp=sharing">resume</a>
         </div>
     </div>
 </nav>
 
 <body>
-
     <!--contact form-->
-
-    <div class="mx-auto" style="width: 75%;">
-
+    <div class="mx-auto" style="width: 45%;">
         <br><br><br>
         <h1>contact</h1>
         <br>
         <form>
-
             <div class="form-group">
-                <label for="exampleFormControlInput1">name</label>
+                <label for="exampleFormControlInput1"></label>
                 <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name">
             </div>
-
             <div class="form-group">
-                <label for="exampleFormControlInput1">email</label>
+                <label for="exampleFormControlInput1"></label>
                 <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="email">
             </div>
-
             <div class="form-group">
-                <label for="exampleFormControlTextarea1">message</label>
+                <label for="exampleFormControlTextarea1"></label>
                 <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="message"
                     rows="3"></textarea>
-                <!-- <a href="mailto:shay@shaydaniel.com" target="_blank" class="btn btn-secondary">submit</a> -->
-
             </div>
-
         </form>
         <br>
         <a href="mailto:shay@shaydaniel.com" target="_blank" class="btn btn-secondary">submit</a>
 
         <!-- modal -->
-
         <button class="btn btn-secondary" id="myBtn">here's my info</button>
-
         <div id="myModal" class="modal">
 
             <div class="modal-content">
                 <span class="close">&times;</span>
                 <p>phone: 314-724-8996</p>
                 <p>email: shay@shaydaniel.com</p>
-
             </div>
-
         </div>
-
     </div>
-
 </body>
 <script>
     var modal = document.getElementById("myModal");
