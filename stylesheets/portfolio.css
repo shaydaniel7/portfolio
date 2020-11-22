@@ -1,0 +1,77 @@
+
+body {
+    background-image: url("../assets/desk3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+/* navbar rules */
+
+.navbar-brand {
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+  }
+  
+  .nav-link {
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+  }
+/* header rules */
+
+h1 {
+    font-size: 75px;
+    font-weight: 500;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;   
+}
+
+h5 {
+    font-size: 25px;
+    font-weight: 500;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;  
+}
+
+
+
+
+/* font rules */
+
+.Oswald {
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+}
+
+.lead {
+    font-size:20px;
+    text-align: center;
+}
+
+/* container rules */
+
+.container {
+    text-align: center;
+    font-family: 'Oswald', sans-serif;     
+}
+
+/* icon rules */
+
+.img-fluid {
+    max-width: 50%;
+    height: auto;
+    margin: 10px;
+}
+
+/* mouseover section */
+        
+a:link {
+    color: rgb(56, 109, 224);
+}       
+a:visited {
+    color: rgb(122, 123, 124);
+}
+a:hover {
+    color: rgb(135, 166, 233);
+}
+a:active {
+    color: rgb(230, 132, 225);
+}
