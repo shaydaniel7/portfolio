@@ -13,6 +13,8 @@ HTML, CSS, Bootstrap.
 
 ### SCREENSHOT: 
 
+
+
 ### WEBSITE:
 * View my online portfolio [here](http://www.shaydaniel.com "Link to online portfolio").
 

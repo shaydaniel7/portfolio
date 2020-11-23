@@ -1,9 +1,7 @@
 body {
   background: url("../assets/pantone.png") no-repeat center fixed;
   background-size: cover;
-  
 }
-
 
 /* navbar rules */
 
@@ -38,6 +36,7 @@ p {
   font-size: 24px;
   text-align: right;
 }
+
 /* container positioning */
 
 .container {
@@ -64,7 +63,6 @@ p {
   width: 100%;
   display: block;
   margin-top: 10px;
-  
 }
 
 #myBtn.btn-secondary {
@@ -75,11 +73,8 @@ p {
   text-align: center;
   width: 100%;
   display: block;
-  margin-top: 10px;
-  
+  margin-top: 10px; 
 }
-
-
 
 /* modal info*/
 .modal {
@@ -117,12 +112,6 @@ p {
 
 @media screen and (max-width: 825px) {
     
-  /* h5 {
-      font-size: 17px;
-      text-align: center;
-      font-family: 'Oswald', sans-serif;   
-  } */
-
   .form-control {
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
@@ -151,9 +140,7 @@ p {
     padding: 10px;
     text-align: center;
     width: 100%;
-    display: block;
-    /* margin-top: 10px; */
-    
+    display: block;    
   }
   
   #myBtn.btn-secondary {
@@ -163,9 +150,7 @@ p {
     padding: 10px;
     text-align: center;
     width: 100%;
-    display: block;
-    /* margin-top: 10px; */
-    
+    display: block;    
   }
 
   .mx-auto {

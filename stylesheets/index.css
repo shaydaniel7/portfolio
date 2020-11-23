@@ -1,7 +1,6 @@
 body {
     background: url("../assets/iko.png") no-repeat center fixed;
-    background-size: cover;
-    
+    background-size: cover;  
   }
   
 /* navbar rules */
@@ -24,8 +23,6 @@ h1 {
     font-family: 'Oswald', sans-serif;   
 }
 
-
-
 /* font rules */
 
 .lead {
@@ -42,8 +39,7 @@ h1 {
 }
 
 .row {
-    justify-content: center;
-    
+    justify-content: center;   
 }
 
 #icon {
@@ -54,13 +50,12 @@ h1 {
 
 .img-fluid {
     max-width: 40px;
-    /* margin: 10px; */
 }
 
 /* mouseover section */
         
 a:link {
-    color: rgb(56, 109, 224);
+    color: rgb(69, 70, 70);
 }       
 a:visited {
     color: rgb(122, 123, 124);
@@ -69,7 +64,7 @@ a:hover {
     color: rgb(135, 166, 233);
 }
 a:active {
-    color: rgb(230, 132, 225);
+    color: rgb(233, 169, 230);
 }
 
 @media screen and (max-width: 1000px) {

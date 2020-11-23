@@ -71,10 +71,10 @@ h5 {
 /* mouseover section */
         
 a:link {
-    color: rgb(56, 109, 224);
+    color: rgb(72, 72, 73);
 }       
 a:visited {
-    color: rgb(122, 123, 124);
+    color: rgb(163, 163, 163);
 }
 a:hover {
     color: rgb(135, 166, 233);
@@ -103,7 +103,6 @@ a:active {
         font-size: 16px;
         text-align: left;
         font-family: 'Montserrat', sans-serif;
-
     }
     
     }

@@ -1,10 +1,8 @@
 body {
     background: url("../assets/desk.png") no-repeat center fixed;
-    background-size: cover;
-    
+    background-size: cover;  
   }
   
-
 .navbar-brand {
     font-family: 'Oswald', sans-serif;
     font-size: 20px;
@@ -18,7 +16,6 @@ body {
 /* header rules */
 
 .boxed {
-    /* border: 1px solid green; */
     background-color: rgb(255, 255, 255);
     padding: 35px;
 }
@@ -49,14 +46,27 @@ img {
 
 /* font rules */
 
-/* .Oswald {
-    font-family: 'Oswald', sans-serif;
-    font-size: 20px;
-} */
-
 .lead {
     font-size: 15px;
     text-align: center;
+}
+
+/* mouseover section */
+
+a:link {
+    color: rgb(69, 70, 70);
+}
+
+a:visited {
+    color: rgb(122, 123, 124);
+}
+
+a:hover {
+    color: rgb(135, 166, 233);
+}
+
+a:active {
+    color: rgb(233, 169, 230);
 }
 
 /* container positioning */
@@ -67,12 +77,6 @@ img {
 
 @media screen and (max-width: 825px) {
     
-    /* h5 {
-        font-size: 17px;
-        text-align: center;
-        font-family: 'Oswald', sans-serif;   
-    } */
-
     h1 {
         font-size: 55px;
         font-weight: 500;
@@ -89,13 +93,3 @@ img {
     }
     
     }
-
-/* @media screen and (max-width: 785px) {
-    
-    h5 {
-        font-size: 17px;
-        text-align: center;
-        font-family: 'Oswald', sans-serif;   
-    } */
-    
-    /* } */
