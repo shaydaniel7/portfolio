@@ -38,27 +38,14 @@ p {
   font-size: 24px;
   text-align: right;
 }
-
-/* img {
-  max-height: 600px;
-} */
-
-/* font rules */
-
-/* .Oswald {
-  font-family: 'Oswald', sans-serif;
-  font-size: 20px;
-} */
-
-/* .lead {
-  font-size: 15px;
-  text-align: center;
-} */
-
 /* container positioning */
 
 .container {
   text-align: center; 
+}
+
+.form-group {
+  margin: 0;
 }
 
 .form-control {
@@ -84,7 +71,7 @@ p {
   color: #ffffff;
   font-family: 'Montserrat', sans-serif;
   font-size: 22px;
-  padding: 20px;
+  padding: 10px;
   text-align: center;
   width: 100%;
   display: block;
@@ -101,8 +88,8 @@ p {
   z-index: 1; 
   left: 0;
   top: 0;
-  width: 100%; 
-  height: 100%;     
+  width: 70%; 
+  height: 70%;     
 }
 
 .modal-content {

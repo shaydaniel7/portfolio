@@ -64,32 +64,38 @@
             <form>
                 <div class="form-group">
                     <label for="exampleFormControlInput1"></label>
-                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name">
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name"
+                        style="margin: 10px; box-shadow: 3px 3px 5px grey">
                 </div>
                 <div class="form-group">
                     <label for="exampleFormControlInput1"></label>
-                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="email">
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="email"
+                        style="margin: 10px; box-shadow: 3px 3px 5px grey">
                 </div>
                 <div class="form-group">
                     <label for="exampleFormControlTextarea1"></label>
-                    <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="message"
-                        rows="3"></textarea>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="message" rows="3"
+                        style="margin: 10px; box-shadow: 3px 3px 5px grey"></textarea>
                 </div>
             </form>
             <br>
-            <a href="mailto:shay@shaydaniel.com" target="_blank" class="btn btn-secondary">submit</a>
-
-            <!-- modal -->
-            <button class="btn btn-secondary" id="myBtn">here's my info</button>
-            <div id="myModal" class="modal">
-
-                <div class="modal-content">
-                    <span class="close">&times;</span>
-                    <p>phone: 314-724-8996</p>
-                    <p>email: shay@shaydaniel.com</p>
-                </div>
+      
+            <div>
+                <a href="mailto:shay@shaydaniel.com" target="_blank" class="btn btn-secondary"
+                    style="margin: 10px; box-shadow: 3px 3px 5px grey">submit</a>
+                <button class="btn btn-secondary" id="myBtn" style="margin: 10px; box-shadow: 3px 3px 5px grey">here's
+                    my info</button>
             </div>
-        </div>
+
+                <!-- modal -->
+                <div id="myModal" class="modal">
+                    <div class="modal-content">
+                        <span class="close">&times;</span>
+                        <p>phone: 314-724-8996</p>
+                        <p>email: shay@shaydaniel.com</p>
+                    </div>
+                </div>
+            <!-- </div> -->
 </body>
 <script>
     var modal = document.getElementById("myModal");
